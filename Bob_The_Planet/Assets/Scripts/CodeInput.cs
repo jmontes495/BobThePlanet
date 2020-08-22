@@ -29,6 +29,8 @@ public class CodeInput : MonoBehaviour
             currentDelay = 0;
             Letter letter = codeDictionary.FindLetter(currentSymbols);
             Debug.LogError(letter != null ? letter.Character : "No match");
+            if (letter != null)
+                CodeInterpreter.Instance.Select(currentSymbols);
             currentSymbols.Clear();
             return;
         }

@@ -21,4 +21,14 @@ public class Letter : ScriptableObject
         }
         return true;
     }
+
+    public string GetCodeVersion()
+    {
+        string characters = "";
+        foreach(Symbol symbol in symbols)
+        {
+            characters += symbol == Symbol.Line ? "_" : ".";
+        }
+        return characters;
+    }
 }
