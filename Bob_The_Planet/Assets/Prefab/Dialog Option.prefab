@@ -32,8 +32,8 @@ RectTransform:
   m_Father: {fileID: 46285463475446586}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.05, y: 0.05}
+  m_AnchorMax: {x: 0.95, y: 0.95}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -92,10 +92,10 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 36
+  m_fontSize: 18
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 5
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -138,7 +138,7 @@ MonoBehaviour:
     spaceCount: 1
     wordCount: 2
     linkCount: 0
-    lineCount: 1
+    lineCount: 7
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 46285463475446586}
   - component: {fileID: 4151870002609265010}
   - component: {fileID: 3505027652311701257}
-  - component: {fileID: 405096906950656821}
+  - component: {fileID: 3319574296938254681}
   m_Layer: 0
   m_Name: Dialog Option
   m_TagString: Untagged
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &405096906950656821
+--- !u!114 &3319574296938254681
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -241,12 +241,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 8282528964312802665}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85889be77a905464ea3176c912c29a4b, type: 3}
+  m_Script: {fileID: 11500000, guid: cac2ef5aa2fe2e74a8b63aefbc161cfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstLetter: {fileID: 11400000, guid: af27efeb2fb41114d934790690479c1b, type: 2}
-  shortMessage: Be my friend
-  fullMessage: "Be my friend. Please? It\u2019s cold out here in the galaxy and I
-    love watching humans\u2019 joy and happiness"
   textField: {fileID: 292727746109470318}
   background: {fileID: 3505027652311701257}

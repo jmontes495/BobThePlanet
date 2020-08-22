@@ -28,7 +28,8 @@ public class Letter : ScriptableObject
         foreach(Symbol symbol in symbols)
         {
             characters += symbol == Symbol.Line ? "_" : ".";
+            characters += " ";
         }
-        return characters;
+        return "<color=#FFA64A>" + characters + "</color>";
     }
 }

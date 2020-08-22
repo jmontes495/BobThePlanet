@@ -30,7 +30,7 @@ public class CodeInput : MonoBehaviour
             Letter letter = codeDictionary.FindLetter(currentSymbols);
             //Debug.LogError(letter != null ? letter.Character : "No match");
             if (letter != null)
-                CodeInterpreter.Instance.Select(currentSymbols);
+                StoryManager.Instance.PlayerSelectedLetter(currentSymbols);
             currentSymbols.Clear();
             return;
         }
