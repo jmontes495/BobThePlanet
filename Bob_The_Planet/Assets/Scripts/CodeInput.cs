@@ -23,7 +23,7 @@ public class CodeInput : MonoBehaviour
     {
         currentDelay += Time.deltaTime;
 
-        if (isTyping && !Input.GetKey(KeyCode.Space) && !Input.GetKeyDown(KeyCode.Space) && currentDelay >= DelayBetweenLetters)
+        if (isTyping && !isHolding && currentDelay >= DelayBetweenLetters)
         {
             isTyping = false;
             currentDelay = 0;
