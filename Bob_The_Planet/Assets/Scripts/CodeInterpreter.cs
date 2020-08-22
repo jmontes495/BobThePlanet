@@ -33,6 +33,8 @@ public class CodeInterpreter : MonoBehaviour
 
     public void Select(List<Symbol> symbols)
     {
+        fullDialog.SetActive(false);
+
         foreach (Message message in messages)
         {
             if (message.FirstLetter.Compare(symbols))
@@ -40,8 +42,10 @@ public class CodeInterpreter : MonoBehaviour
                 message.SetBackground(Color.yellow);
                 fullDialog.SetActive(true);
                 fullDialogText.text = message.FullMessage;
-                return;
             }
+            else
+                message.SetBackground(Color.white);
         }
+
     }
 }
