@@ -48,6 +48,7 @@ public class StoryManager : MonoBehaviour
     private void ShowCurrentMessage()
     {
         HideAll();
+        currentNode.CallForEmotions();
         if (currentNode.HasOptions())
             ShowOptions();
         else
@@ -71,7 +72,7 @@ public class StoryManager : MonoBehaviour
     {
         planetDialog.gameObject.SetActive(true);
         SingleTextNode textNode = (SingleTextNode)currentNode;
-        planetDialog.SetText(textNode.FirstLetter.GetCodeVersion() + "\n" + textNode.MessageText);
+        planetDialog.SetText(textNode.FirstLetter.GetCodeVersion(), textNode.MessageText);
     }
 
     private void ShowKidMessage()
@@ -80,7 +81,7 @@ public class StoryManager : MonoBehaviour
         if (textNode.MessageText.CompareTo("") != 0)
         {
             kidDialog.gameObject.SetActive(true);
-            kidDialog.SetText(textNode.FirstLetter.GetCodeVersion() + "\n" + textNode.MessageText);
+            kidDialog.SetText(textNode.FirstLetter.GetCodeVersion(), textNode.MessageText);
         }
     }
 
@@ -88,7 +89,7 @@ public class StoryManager : MonoBehaviour
     {
         narratorScreen.gameObject.SetActive(true);
         SingleTextNode textNode = (SingleTextNode)currentNode;
-        narratorScreen.SetText(textNode.MessageText);
+        narratorScreen.SetText("", textNode.MessageText);
     }
 
     private void ShowOptions()

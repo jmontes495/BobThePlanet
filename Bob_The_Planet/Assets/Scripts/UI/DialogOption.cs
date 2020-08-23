@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class DialogOption : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI textField;
+    [SerializeField] private TextMeshProUGUI morseTextField;
     [SerializeField] private Image background;
     private Message currentMessage;
     public Message Message { get { return currentMessage; } }
@@ -15,7 +16,8 @@ public class DialogOption : MonoBehaviour
     { 
         background.color = Color.white;
         currentMessage = message;
-        textField.text = currentMessage.FirstLetter.GetCodeVersion() + "\n" + currentMessage.ShortMessage;
+        morseTextField.text = currentMessage.FirstLetter.GetCodeVersion();
+        textField.text = currentMessage.FullMessage;
     }
 
     public void SetBackground(Color color)

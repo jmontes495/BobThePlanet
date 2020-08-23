@@ -45,7 +45,7 @@ public class CodeInterpreter : MonoBehaviour
         foreach (DialogOption dialog in messages)
         {
             if (dialog.Message.FirstLetter.Compare(symbols))
-                dialog.SetBackground(Color.yellow);
+                dialog.SetBackground(Color.green);
             else
                 dialog.SetBackground(Color.white);
         }

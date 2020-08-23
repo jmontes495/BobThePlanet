@@ -6,9 +6,11 @@ using UnityEngine;
 public class DialogBubble : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI dialogText;
+    [SerializeField] private TextMeshProUGUI morseText;
 
-    public void SetText(string newText)
+    public void SetText(string morse, string newText)
     {
         dialogText.text = newText;
+        morseText.text = morse;
     }
 }
