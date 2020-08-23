@@ -562,7 +562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 1
-  emotions: 
+  emotions: 03000000
   firstLetter: {fileID: 11400000, guid: aad824c9288e28f44a0a154e99efabfd, type: 2}
   messageText: Humans are so lucky to have one another...
 --- !u!1 &234265205
@@ -1317,7 +1317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 1
-  emotions: 
+  emotions: 03000000
 --- !u!1 &556157402
 GameObject:
   m_ObjectHideFlags: 0
@@ -2298,7 +2298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 2
-  emotions: 
+  emotions: 0100000004000000
 --- !u!1 &759192082
 GameObject:
   m_ObjectHideFlags: 0
@@ -2524,7 +2524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 2
-  emotions: 
+  emotions: 0200000005000000
   firstLetter: {fileID: 11400000, guid: aad824c9288e28f44a0a154e99efabfd, type: 2}
   messageText: Hi?.........
 --- !u!1 &860457793
@@ -2573,7 +2573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 1
-  emotions: 
+  emotions: 02000000
 --- !u!1 &926733426
 GameObject:
   m_ObjectHideFlags: 0
@@ -3208,7 +3208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 2
-  emotions: 
+  emotions: 05000000
   firstLetter: {fileID: 11400000, guid: aad824c9288e28f44a0a154e99efabfd, type: 2}
   messageText: Here on earth it can be lonely sometimes too...
 --- !u!1 &1154018590
@@ -3460,7 +3460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 1
-  emotions: 
+  emotions: 01000000
   firstLetter: {fileID: 11400000, guid: ef5c0379e6a236d4b8ba7b32ef2c8b59, type: 2}
   messageText: I can't believe I'm talking to you...
 --- !u!1001 &1224789160
@@ -3876,7 +3876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 1
-  emotions: 
+  emotions: 01000000
   firstLetter: {fileID: 11400000, guid: 956eb17d7be32b44889c9995e7aa4545, type: 2}
   messageText: We can be best friends, even though we are very far apart!
 --- !u!1 &1281129272
@@ -3923,7 +3923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 1
-  emotions: 
+  emotions: 02000000
   firstLetter: {fileID: 11400000, guid: ef5c0379e6a236d4b8ba7b32ef2c8b59, type: 2}
   messageText: It's lonely out here...
 --- !u!1 &1318760808
@@ -4185,7 +4185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 1
-  emotions: 
+  emotions: 01000000
 --- !u!1 &1441808789
 GameObject:
   m_ObjectHideFlags: 0
@@ -4676,7 +4676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 1
-  emotions: 
+  emotions: 02000000
 --- !u!1 &1578950854
 GameObject:
   m_ObjectHideFlags: 0
@@ -4723,7 +4723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 1
-  emotions: 
+  emotions: 0100000004000000
 --- !u!1 &1581929224
 GameObject:
   m_ObjectHideFlags: 0
@@ -5981,7 +5981,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 2
-  emotions: 
+  emotions: 05000000
 --- !u!1 &2023987419
 GameObject:
   m_ObjectHideFlags: 0
