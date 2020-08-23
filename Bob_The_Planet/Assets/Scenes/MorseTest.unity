@@ -121,6 +121,100 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &57107625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 57107626}
+  - component: {fileID: 57107627}
+  m_Layer: 0
+  m_Name: Bob (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &57107626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57107625}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1318760810}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &57107627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57107625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6f3135100d70a489a2781996553b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 1
+  emotions: 01000000
+  firstLetter: {fileID: 11400000, guid: 956eb17d7be32b44889c9995e7aa4545, type: 2}
+  messageText: We can be best friends!
+--- !u!1 &60018559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 60018560}
+  - component: {fileID: 60018561}
+  m_Layer: 0
+  m_Name: Boy (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &60018560
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60018559}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1318760810}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &60018561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60018559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6f3135100d70a489a2781996553b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 2
+  emotions: 05000000
+  firstLetter: {fileID: 11400000, guid: f04cb6e0367bc1540ad83a1e55b062af, type: 2}
+  messageText: Right! We'll be there for each other even far apart!
 --- !u!1 &96537766
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,6 +261,53 @@ MonoBehaviour:
   firstLetter: {fileID: 11400000, guid: 91121e723626a994c903f7702a967dca, type: 2}
   shortMessage: That's sad to hear
   fullMessage: That's sad to hear...
+--- !u!1 &136595532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 136595533}
+  - component: {fileID: 136595534}
+  m_Layer: 0
+  m_Name: Bob 0.1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &136595533
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136595532}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1318760810}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &136595534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136595532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6f3135100d70a489a2781996553b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 1
+  emotions: 02000000
+  firstLetter: {fileID: 11400000, guid: 91121e723626a994c903f7702a967dca, type: 2}
+  messageText: The space is so boring
 --- !u!1 &142491035
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,7 +494,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 18
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &199447929
 MonoBehaviour:
@@ -501,7 +642,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &219941771
 MonoBehaviour:
@@ -548,7 +689,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &233453253
 MonoBehaviour:
@@ -595,7 +736,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 16
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &234265207
 MonoBehaviour:
@@ -1303,7 +1444,7 @@ Transform:
   - {fileID: 1612039179}
   - {fileID: 1017151487}
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 15
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &505851376
 MonoBehaviour:
@@ -1366,6 +1507,53 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &560336084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 560336085}
+  - component: {fileID: 560336086}
+  m_Layer: 0
+  m_Name: Boy (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &560336085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560336084}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1318760810}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &560336086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560336084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6f3135100d70a489a2781996553b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 2
+  emotions: 05000000
+  firstLetter: {fileID: 11400000, guid: f5328350b9d8a06488fbd4f67c698c5c, type: 2}
+  messageText: You are my new best friend!
 --- !u!1 &566430422
 GameObject:
   m_ObjectHideFlags: 0
@@ -1750,8 +1938,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firstLetter: {fileID: 11400000, guid: 11dfbde2e6b6fcc43af4ac623a7cb5be, type: 2}
-  shortMessage: Do you want to be friends?
-  fullMessage: Do you want to be friends?
+  shortMessage: I'm sorry for you
+  fullMessage: I'm sorry for you, I wish I could help
 --- !u!1 &608500552
 GameObject:
   m_ObjectHideFlags: 0
@@ -1796,8 +1984,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firstLetter: {fileID: 11400000, guid: 768715d049a4aa24aac1b3f015394b08, type: 2}
-  shortMessage: Look for me in the sky
+  shortMessage: Yes! Look for me on the sky
   fullMessage: Look for me everyday on the night sky
+--- !u!1 &668871651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 668871652}
+  - component: {fileID: 668871653}
+  m_Layer: 0
+  m_Name: Boy (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &668871652
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668871651}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1318760810}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &668871653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668871651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6f3135100d70a489a2781996553b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 2
+  emotions: 05000000
+  firstLetter: {fileID: 11400000, guid: 11dfbde2e6b6fcc43af4ac623a7cb5be, type: 2}
+  messageText: Do you want to be my friend?
 --- !u!1 &695460452
 GameObject:
   m_ObjectHideFlags: 0
@@ -1930,7 +2165,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 21
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &695560493
 MonoBehaviour:
@@ -2284,7 +2519,7 @@ Transform:
   - {fileID: 1341463223}
   - {fileID: 1167010692}
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 12
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &757311698
 MonoBehaviour:
@@ -2510,7 +2745,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &796948841
 MonoBehaviour:
@@ -2640,7 +2875,7 @@ Transform:
   - {fileID: 964234897}
   - {fileID: 759192083}
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &860457795
 MonoBehaviour:
@@ -2685,7 +2920,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &926733428
 MonoBehaviour:
@@ -2930,7 +3165,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firstLetter: {fileID: 11400000, guid: 37f4471354291da4e9e9ce774efe7a4f, type: 2}
   shortMessage: Can't you hear me?
-  fullMessage: Can't you hear me? Say something if you can
+  fullMessage: Can't you hear me? Say something please
+--- !u!1 &992100699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 992100700}
+  - component: {fileID: 992100701}
+  m_Layer: 0
+  m_Name: Bob 0.2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &992100700
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992100699}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1318760810}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &992100701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992100699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6f3135100d70a489a2781996553b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 1
+  emotions: 02000000
+  firstLetter: {fileID: 11400000, guid: ef5c0379e6a236d4b8ba7b32ef2c8b59, type: 2}
+  messageText: 'I wish I wasn''t a planet '
 --- !u!1 &1017151486
 GameObject:
   m_ObjectHideFlags: 0
@@ -2976,8 +3258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firstLetter: {fileID: 11400000, guid: 3e2a32c74d345d64eb45f5951022e8db, type: 2}
   shortMessage: Sometimes I wish I was human
-  fullMessage: Sometimes I wish I was a human. You are always surrounded by family,
-    friends and loved ones
+  fullMessage: Sometimes I wish I was a human. You are always with other humans
 --- !u!1 &1019511832
 GameObject:
   m_ObjectHideFlags: 0
@@ -3276,7 +3557,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 20
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1139817148
 MonoBehaviour:
@@ -3498,7 +3779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firstLetter: {fileID: 11400000, guid: f5328350b9d8a06488fbd4f67c698c5c, type: 2}
   shortMessage: You are a planet talking to me
-  fullMessage: You are a planet talking to me! This might be the best day of my life!
+  fullMessage: You are a planet talking to me! This is the best day of my life!
 --- !u!1 &1191214175
 GameObject:
   m_ObjectHideFlags: 0
@@ -3528,7 +3809,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 14
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1191214177
 MonoBehaviour:
@@ -3944,7 +4225,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 23
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1269859588
 MonoBehaviour:
@@ -3960,8 +4241,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 1
   emotions: 01000000
-  firstLetter: {fileID: 11400000, guid: 956eb17d7be32b44889c9995e7aa4545, type: 2}
-  messageText: We can be best friends, even though we are very far apart!
+  firstLetter: {fileID: 11400000, guid: b71879f5046268145adfef36b4984441, type: 2}
+  messageText: Even though we are very far apart...
 --- !u!1 &1281129272
 GameObject:
   m_ObjectHideFlags: 0
@@ -3991,7 +4272,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 17
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1281129274
 MonoBehaviour:
@@ -4056,6 +4337,8 @@ Transform:
   m_Children:
   - {fileID: 1592114057}
   - {fileID: 1454619937}
+  - {fileID: 136595533}
+  - {fileID: 992100700}
   - {fileID: 1557003510}
   - {fileID: 219941770}
   - {fileID: 1877720403}
@@ -4075,9 +4358,13 @@ Transform:
   - {fileID: 199447928}
   - {fileID: 2009458182}
   - {fileID: 1139817147}
+  - {fileID: 668871652}
   - {fileID: 695560492}
   - {fileID: 1578950855}
   - {fileID: 1269859587}
+  - {fileID: 57107626}
+  - {fileID: 60018560}
+  - {fileID: 560336085}
   - {fileID: 2086901052}
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -4111,7 +4398,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1332360989
 MonoBehaviour:
@@ -4204,7 +4491,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1381550530
 MonoBehaviour:
@@ -4253,7 +4540,7 @@ Transform:
   - {fileID: 1102131478}
   - {fileID: 336672996}
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1411720876
 MonoBehaviour:
@@ -4441,7 +4728,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1454619937
 Transform:
   m_ObjectHideFlags: 0
@@ -4744,7 +5031,7 @@ Transform:
   - {fileID: 289784945}
   - {fileID: 357108432}
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1557003511
 MonoBehaviour:
@@ -4791,7 +5078,7 @@ Transform:
   - {fileID: 1786602502}
   - {fileID: 608500553}
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 22
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1578950856
 MonoBehaviour:
@@ -4996,8 +5283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firstLetter: {fileID: 11400000, guid: ef5c0379e6a236d4b8ba7b32ef2c8b59, type: 2}
   shortMessage: I love to watch people's lives
-  fullMessage: I love to watch people's lives from up here, but no one ever listens
-    to me
+  fullMessage: I love to watch people's lives from here, but they can't hear me
 --- !u!1 &1621039666
 GameObject:
   m_ObjectHideFlags: 0
@@ -5485,7 +5771,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1824040619
 MonoBehaviour:
@@ -5845,7 +6131,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1877720404
 MonoBehaviour:
@@ -6051,7 +6337,7 @@ Transform:
   - {fileID: 96537767}
   - {fileID: 586136695}
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 19
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2009458183
 MonoBehaviour:
@@ -6142,7 +6428,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1318760810}
-  m_RootOrder: 24
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2086901053
 MonoBehaviour:
