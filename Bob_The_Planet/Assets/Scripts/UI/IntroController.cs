@@ -35,6 +35,6 @@ public class IntroController : MonoBehaviour
             Fade.color = new Color(0, 0, 0, i);
             yield return new WaitForSeconds(0.1f);
         }
-        SceneManager.LoadScene(1, LoadSceneMode.Additive);
+        SceneManager.LoadScene(1);
     }
 }

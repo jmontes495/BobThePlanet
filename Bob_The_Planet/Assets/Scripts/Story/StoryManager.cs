@@ -28,6 +28,7 @@ public class StoryManager : MonoBehaviour
     private int nodeIndex;
     private StoryNode currentNode;
     private bool inDelay;
+    private bool shouldIgnoreLetter;
 
     private void Start()
     {
@@ -73,7 +74,8 @@ public class StoryManager : MonoBehaviour
     {
         planetDialog.gameObject.SetActive(true);
         SingleTextNode textNode = (SingleTextNode)currentNode;
-        planetDialog.SetText(textNode.FirstLetter.GetCodeVersion(), textNode.MessageText);
+        planetDialog.SetText(shouldIgnoreLetter ? "" : textNode.FirstLetter.GetCodeVersion(), textNode.MessageText);
+        shouldIgnoreLetter = false;
     }
 
     private void ShowKidMessage()
@@ -82,7 +84,8 @@ public class StoryManager : MonoBehaviour
         if (textNode.MessageText.CompareTo("") != 0)
         {
             kidDialog.gameObject.SetActive(true);
-            kidDialog.SetText(textNode.FirstLetter.GetCodeVersion(), textNode.MessageText);
+            kidDialog.SetText(shouldIgnoreLetter ? "" : textNode.FirstLetter.GetCodeVersion(), textNode.MessageText);
+            shouldIgnoreLetter = false;
         }
     }
 
@@ -136,7 +139,8 @@ public class StoryManager : MonoBehaviour
         inDelay = true;
         optionsScreen.Select(symbols);
         yield return new WaitForSeconds(1.0f);
-        auxiliarNode.InitForDialog(message.FirstLetter, message.FullMessage, currentCharacter);
+        shouldIgnoreLetter = true;
+        auxiliarNode.InitForDialog(message.FullMessage, currentCharacter);
         currentNode = auxiliarNode;
         currentCharacter = currentNode.Character;
         ShowCurrentMessage();

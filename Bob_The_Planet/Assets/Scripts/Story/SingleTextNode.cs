@@ -9,10 +9,9 @@ public class SingleTextNode : StoryNode
     [SerializeField] private string messageText;
     public virtual string MessageText { get { return messageText; } }
 
-    public void InitForDialog(Letter letter, string message, Character character)
+    public void InitForDialog(string message, Character character)
     {
         this.character = character;
-        firstLetter = letter;
         messageText = message;
     }
 }

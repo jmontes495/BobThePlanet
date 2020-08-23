@@ -17,7 +17,7 @@ public class DialogOption : MonoBehaviour
         background.color = Color.white;
         currentMessage = message;
         morseTextField.text = currentMessage.FirstLetter.GetCodeVersion();
-        textField.text = currentMessage.FullMessage;
+        textField.text = currentMessage.ShortMessage;
     }
 
     public void SetBackground(Color color)
