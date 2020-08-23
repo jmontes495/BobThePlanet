@@ -26,9 +26,9 @@ public class CodeInterpreter : MonoBehaviour
     public void SetTitle(Character character)
     {
         if(character == Character.Bob_The_Planet)
-            title.text = "What will the planet say?";
+            title.text = "What will <color=#FFAACA>Bob the Planet?</color> say?";
         else
-            title.text = "What will the boy say?";
+            title.text = "What will <color=#B9FD63>Robie the Kid?</color> say?";
 
     }
 
