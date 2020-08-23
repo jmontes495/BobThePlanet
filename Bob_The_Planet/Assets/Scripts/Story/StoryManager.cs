@@ -21,6 +21,7 @@ public class StoryManager : MonoBehaviour
     [SerializeField] private DialogBubble kidDialog;
     [SerializeField] private DialogBubble narratorScreen;
     [SerializeField] private CodeInterpreter optionsScreen;
+    [SerializeField] private SingleTextNode auxiliarNode;
 
     private StoryNode[] storyNodes;
     private Character currentCharacter;
@@ -112,7 +113,7 @@ public class StoryManager : MonoBehaviour
             {
                 if (dialog.FirstLetter.Compare(symbols))
                 {
-                    StartCoroutine(SelectionDelay(symbols));
+                    StartCoroutine(SelectionDelay(dialog, symbols));
                 }
             }
         }
@@ -130,13 +131,13 @@ public class StoryManager : MonoBehaviour
 
     }
 
-    private IEnumerator SelectionDelay(List<Symbol> symbols)
+    private IEnumerator SelectionDelay(Message message, List<Symbol> symbols)
     {
         inDelay = true;
         optionsScreen.Select(symbols);
         yield return new WaitForSeconds(1.0f);
-        nodeIndex++;
-        currentNode = storyNodes[nodeIndex];
+        auxiliarNode.InitForDialog(message.FirstLetter, message.FullMessage, currentCharacter);
+        currentNode = auxiliarNode;
         currentCharacter = currentNode.Character;
         ShowCurrentMessage();
         inDelay = false;

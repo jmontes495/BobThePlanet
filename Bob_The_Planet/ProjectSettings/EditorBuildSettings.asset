@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MorseTest.unity
+    guid: 529ee16e7a2192045bd0616ee3062917
   m_configObjects: {}
