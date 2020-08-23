@@ -460,7 +460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 1
   firstLetter: {fileID: 11400000, guid: aad824c9288e28f44a0a154e99efabfd, type: 2}
-  messageText: Humans are so lucky...
+  messageText: Humans are so lucky to have one another...
 --- !u!1 &234265205
 GameObject:
   m_ObjectHideFlags: 0
@@ -1757,7 +1757,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &926733427
 Transform:
   m_ObjectHideFlags: 0
@@ -1786,7 +1786,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 0
   firstLetter: {fileID: 11400000, guid: b71879f5046268145adfef36b4984441, type: 2}
-  messageText: Act Four
+  messageText: Silence... He can't hear me
 --- !u!1 &942327398
 GameObject:
   m_ObjectHideFlags: 0
@@ -3811,7 +3811,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1824040618
 Transform:
   m_ObjectHideFlags: 0
