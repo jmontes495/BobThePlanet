@@ -12,7 +12,6 @@ public class RobieController : MonoBehaviour
     {
         StoryNode.KidSmile += SetSmiley;
         StoryNode.KidHappy += SetHappy;
-        spriteRenderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.On;
 
     }
 

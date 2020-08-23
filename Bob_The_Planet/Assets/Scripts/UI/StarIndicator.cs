@@ -20,7 +20,8 @@ public class StarIndicator : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            AudioManager.Instance.PlayDing();
+            if(AudioManager.Instance != null)
+                AudioManager.Instance.PlayDing();
             if (!starIsOn)
             {
                 starIsOn = true;

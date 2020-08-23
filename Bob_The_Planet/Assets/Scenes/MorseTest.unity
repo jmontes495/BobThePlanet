@@ -168,6 +168,7 @@ MonoBehaviour:
   emotions: 01000000
   firstLetter: {fileID: 11400000, guid: 956eb17d7be32b44889c9995e7aa4545, type: 2}
   messageText: We can be best friends!
+  narratorSubText: 
 --- !u!1 &60018559
 GameObject:
   m_ObjectHideFlags: 0
@@ -215,6 +216,7 @@ MonoBehaviour:
   emotions: 05000000
   firstLetter: {fileID: 11400000, guid: f04cb6e0367bc1540ad83a1e55b062af, type: 2}
   messageText: Right! We'll be there for each other even far apart!
+  narratorSubText: 
 --- !u!1 &96537766
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,6 +310,7 @@ MonoBehaviour:
   emotions: 02000000
   firstLetter: {fileID: 11400000, guid: 91121e723626a994c903f7702a967dca, type: 2}
   messageText: The space is so boring
+  narratorSubText: 
 --- !u!1 &142491035
 GameObject:
   m_ObjectHideFlags: 0
@@ -445,7 +448,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}
@@ -512,6 +515,98 @@ MonoBehaviour:
   emotions: 
   firstLetter: {fileID: 11400000, guid: b71879f5046268145adfef36b4984441, type: 2}
   messageText: Act Six
+  narratorSubText: 
+--- !u!1 &201058622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 201058626}
+  - component: {fileID: 201058625}
+  - component: {fileID: 201058624}
+  - component: {fileID: 201058623}
+  m_Layer: 0
+  m_Name: Code Indicator Robie
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &201058623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201058622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.8207547, g: 0.8175394, b: 0.63105196, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 9024a78d937b4bd428585961e95a52c9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &201058624
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201058622}
+  m_CullTransparentMesh: 0
+--- !u!114 &201058625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201058622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab244d2d9072bd64fa01785ac2e1c71f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  star: {fileID: 503486849}
+  fadeSpeed: 0.01
+--- !u!224 &201058626
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201058622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 503486851}
+  - {fileID: 1084915795}
+  m_Father: {fileID: 695460453}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -218.35, y: -509.6}
+  m_SizeDelta: {x: 220, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &219824974
 GameObject:
   m_ObjectHideFlags: 0
@@ -603,7 +698,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ca998b15f7a942340bb454137d08d11c, type: 3}
-  m_Color: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -660,6 +755,7 @@ MonoBehaviour:
   emotions: 
   firstLetter: {fileID: 11400000, guid: b71879f5046268145adfef36b4984441, type: 2}
   messageText: Act Two
+  narratorSubText: 
 --- !u!1 &233453251
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,6 +803,7 @@ MonoBehaviour:
   emotions: 03000000
   firstLetter: {fileID: 11400000, guid: aad824c9288e28f44a0a154e99efabfd, type: 2}
   messageText: Humans are so lucky to have one another...
+  narratorSubText: 
 --- !u!1 &234265205
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,6 +851,7 @@ MonoBehaviour:
   emotions: 
   firstLetter: {fileID: 11400000, guid: b71879f5046268145adfef36b4984441, type: 2}
   messageText: Act Six
+  narratorSubText: 
 --- !u!1 &240614011
 GameObject:
   m_ObjectHideFlags: 0
@@ -1339,6 +1437,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogText: {fileID: 1809813556}
   morseText: {fileID: 1441808791}
+  subText: {fileID: 0}
 --- !u!1 &498087780
 GameObject:
   m_ObjectHideFlags: 0
@@ -1413,6 +1512,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 498087780}
   m_CullTransparentMesh: 0
+--- !u!1 &503486848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 503486851}
+  - component: {fileID: 503486850}
+  - component: {fileID: 503486849}
+  m_Layer: 0
+  m_Name: Lit Star
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &503486849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503486848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.9960821, b: 0.7688679, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 747627e14e6b1a14f8451a1009a5952f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &503486850
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503486848}
+  m_CullTransparentMesh: 0
+--- !u!224 &503486851
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503486848}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 201058626}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &505851374
 GameObject:
   m_ObjectHideFlags: 0
@@ -1493,6 +1666,7 @@ MonoBehaviour:
   emotions: 
   firstLetter: {fileID: 11400000, guid: b71879f5046268145adfef36b4984441, type: 2}
   messageText: 
+  narratorSubText: 
 --- !u!4 &556157404
 Transform:
   m_ObjectHideFlags: 0
@@ -1554,6 +1728,7 @@ MonoBehaviour:
   emotions: 05000000
   firstLetter: {fileID: 11400000, guid: f5328350b9d8a06488fbd4f67c698c5c, type: 2}
   messageText: You are my new best friend!
+  narratorSubText: 
 --- !u!1 &566430422
 GameObject:
   m_ObjectHideFlags: 0
@@ -1580,12 +1755,12 @@ Light:
   m_GameObject: {fileID: 566430422}
   m_Enabled: 1
   serializedVersion: 10
-  m_Type: 2
+  m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3.41
-  m_Range: 11.54
-  m_SpotAngle: 30
+  m_Intensity: 17.9
+  m_Range: 15.69
+  m_SpotAngle: 54.6
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
@@ -1640,7 +1815,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 566430422}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.45, y: 2.25, z: -3.71}
+  m_LocalPosition: {x: -0.29, y: 1.2, z: -16.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1679,11 +1854,11 @@ RectTransform:
   - {fileID: 1234943667}
   - {fileID: 1154018591}
   m_Father: {fileID: 695460453}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -40.6, y: -60}
+  m_AnchoredPosition: {x: -40.6, y: -93.7}
   m_SizeDelta: {x: 220, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &577954251
@@ -2033,6 +2208,7 @@ MonoBehaviour:
   emotions: 05000000
   firstLetter: {fileID: 11400000, guid: 11dfbde2e6b6fcc43af4ac623a7cb5be, type: 2}
   messageText: Do you want to be my friend?
+  narratorSubText: 
 --- !u!1 &695460452
 GameObject:
   m_ObjectHideFlags: 0
@@ -2066,6 +2242,7 @@ RectTransform:
   - {fileID: 450882265}
   - {fileID: 482271863}
   - {fileID: 1552357674}
+  - {fileID: 201058626}
   - {fileID: 1621039667}
   - {fileID: 577954250}
   m_Father: {fileID: 963194228}
@@ -2183,6 +2360,7 @@ MonoBehaviour:
   emotions: 
   firstLetter: {fileID: 11400000, guid: b71879f5046268145adfef36b4984441, type: 2}
   messageText: Final Act
+  narratorSubText: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2212,7 +2390,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.4
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2268,13 +2446,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.15110414, y: -0.25563252, z: 0.040488224, w: 0.9540337}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 18, y: -30, z: 0}
 --- !u!1001 &706458149
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2716,6 +2894,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogText: {fileID: 0}
   morseText: {fileID: 0}
+  subText: {fileID: 0}
 --- !u!1 &796948839
 GameObject:
   m_ObjectHideFlags: 0
@@ -2763,6 +2942,7 @@ MonoBehaviour:
   emotions: 0200000005000000
   firstLetter: {fileID: 11400000, guid: aad824c9288e28f44a0a154e99efabfd, type: 2}
   messageText: Hi?.........
+  narratorSubText: 
 --- !u!1 &848118474
 GameObject:
   m_ObjectHideFlags: 0
@@ -2773,6 +2953,7 @@ GameObject:
   m_Component:
   - component: {fileID: 848118475}
   - component: {fileID: 848118476}
+  - component: {fileID: 848118477}
   m_Layer: 0
   m_Name: Land
   m_TagString: Untagged
@@ -2812,7 +2993,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 1a0c8d3a077861c428a80d3fad993b4d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2844,6 +3025,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &848118477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848118474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54f49daa731ef043b9cdf2d21df74a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &860457793
 GameObject:
   m_ObjectHideFlags: 0
@@ -2938,6 +3131,7 @@ MonoBehaviour:
   emotions: 
   firstLetter: {fileID: 11400000, guid: b71879f5046268145adfef36b4984441, type: 2}
   messageText: Silence... He can't hear me
+  narratorSubText: Press SPACE to continue
 --- !u!1 &942327398
 GameObject:
   m_ObjectHideFlags: 0
@@ -3213,6 +3407,7 @@ MonoBehaviour:
   emotions: 02000000
   firstLetter: {fileID: 11400000, guid: ef5c0379e6a236d4b8ba7b32ef2c8b59, type: 2}
   messageText: 'I wish I wasn''t a planet '
+  narratorSubText: 
 --- !u!1 &1017151486
 GameObject:
   m_ObjectHideFlags: 0
@@ -3325,6 +3520,165 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1084915794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1084915795}
+  - component: {fileID: 1084915797}
+  - component: {fileID: 1084915796}
+  m_Layer: 0
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1084915795
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084915794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 201058626}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 141.68, y: 1.1}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1084915796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084915794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'SPACE
+
+    to morse'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 0bfc8590eceeb374eab80b706ea97d23, type: 2}
+  m_sharedMaterial: {fileID: 5064920590980987585, guid: 0bfc8590eceeb374eab80b706ea97d23,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 24.92
+  m_fontSizeBase: 24.92
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_textAlignment: 257
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 1084915796}
+    characterCount: 14
+    spriteCount: 0
+    spaceCount: 2
+    wordCount: 3
+    linkCount: 0
+    lineCount: 2
+    pageCount: 1
+    materialCount: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1084915797
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084915794}
+  m_CullTransparentMesh: 0
 --- !u!1 &1102131477
 GameObject:
   m_ObjectHideFlags: 0
@@ -3575,6 +3929,7 @@ MonoBehaviour:
   emotions: 05000000
   firstLetter: {fileID: 11400000, guid: aad824c9288e28f44a0a154e99efabfd, type: 2}
   messageText: Here on earth it can be lonely sometimes too...
+  narratorSubText: 
 --- !u!1 &1154018590
 GameObject:
   m_ObjectHideFlags: 0
@@ -3827,6 +4182,7 @@ MonoBehaviour:
   emotions: 01000000
   firstLetter: {fileID: 11400000, guid: ef5c0379e6a236d4b8ba7b32ef2c8b59, type: 2}
   messageText: I can't believe I'm talking to you...
+  narratorSubText: 
 --- !u!1001 &1224789160
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4109,6 +4465,7 @@ GameObject:
   - component: {fileID: 1253835228}
   - component: {fileID: 1253835230}
   - component: {fileID: 1253835229}
+  - component: {fileID: 1253835231}
   m_Layer: 0
   m_Name: Bob
   m_TagString: Untagged
@@ -4124,8 +4481,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253835227}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -316.23, y: -236.13, z: -1.12}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
+  m_LocalPosition: {x: -317.42, y: -236.8, z: -3.41}
+  m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_Children: []
   m_Father: {fileID: 956574553}
   m_RootOrder: 2
@@ -4143,9 +4500,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1253835230}
-  hype: {fileID: 21300000, guid: a683eebb04aca1448b2afccb8a863e6c, type: 3}
-  sad: {fileID: 21300000, guid: dabcd791674ad3649a8a41099fee64b2, type: 3}
-  shy: {fileID: 21300000, guid: f5b7b43ca6efe054fa896c9ebf4f04eb, type: 3}
+  hype: {fileID: 21300000, guid: c8391fe3d16fe834b86ea44bda447d63, type: 3}
+  sad: {fileID: 21300000, guid: 14c83af55d30e1e46ba3f427249b176b, type: 3}
+  shy: {fileID: 21300000, guid: e435f3d40c45b06488b5a629ebde36d2, type: 3}
 --- !u!212 &1253835230
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4164,7 +4521,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 1a0c8d3a077861c428a80d3fad993b4d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4196,6 +4553,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1253835231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253835227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54f49daa731ef043b9cdf2d21df74a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1269859586
 GameObject:
   m_ObjectHideFlags: 0
@@ -4243,6 +4612,7 @@ MonoBehaviour:
   emotions: 01000000
   firstLetter: {fileID: 11400000, guid: b71879f5046268145adfef36b4984441, type: 2}
   messageText: Even though we are very far apart...
+  narratorSubText: 
 --- !u!1 &1281129272
 GameObject:
   m_ObjectHideFlags: 0
@@ -4290,6 +4660,7 @@ MonoBehaviour:
   emotions: 02000000
   firstLetter: {fileID: 11400000, guid: ef5c0379e6a236d4b8ba7b32ef2c8b59, type: 2}
   messageText: It's lonely out here...
+  narratorSubText: 
 --- !u!1 &1318760808
 GameObject:
   m_ObjectHideFlags: 0
@@ -4324,6 +4695,8 @@ MonoBehaviour:
   narratorScreen: {fileID: 1621039670}
   optionsScreen: {fileID: 450882267}
   auxiliarNode: {fileID: 556157403}
+  starIndicator: {fileID: 577954249}
+  lanternIndicator: {fileID: 201058622}
 --- !u!4 &1318760810
 Transform:
   m_ObjectHideFlags: 0
@@ -4416,6 +4789,7 @@ MonoBehaviour:
   emotions: 
   firstLetter: {fileID: 11400000, guid: b71879f5046268145adfef36b4984441, type: 2}
   messageText: Act Three
+  narratorSubText: 
 --- !u!1 &1341463222
 GameObject:
   m_ObjectHideFlags: 0
@@ -4509,6 +4883,7 @@ MonoBehaviour:
   emotions: 
   firstLetter: {fileID: 11400000, guid: b71879f5046268145adfef36b4984441, type: 2}
   messageText: Act Five
+  narratorSubText: 
 --- !u!1 &1411720874
 GameObject:
   m_ObjectHideFlags: 0
@@ -5000,6 +5375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogText: {fileID: 467018617}
   morseText: {fileID: 1833905940}
+  subText: {fileID: 0}
 --- !u!1 &1557003509
 GameObject:
   m_ObjectHideFlags: 0
@@ -5105,6 +5481,7 @@ GameObject:
   - component: {fileID: 1581929225}
   - component: {fileID: 1581929226}
   - component: {fileID: 1581929227}
+  - component: {fileID: 1581929228}
   m_Layer: 0
   m_Name: Robbie
   m_TagString: Untagged
@@ -5120,7 +5497,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1581929224}
   m_LocalRotation: {x: 0, y: 0, z: -0.07567481, w: 0.99713254}
-  m_LocalPosition: {x: -323.9, y: -241.6, z: -2.48}
+  m_LocalPosition: {x: -323.3, y: -241.2, z: -3.61}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_Children: []
   m_Father: {fileID: 956574553}
@@ -5144,7 +5521,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 1a0c8d3a077861c428a80d3fad993b4d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5191,6 +5568,18 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1581929226}
   smiley: {fileID: 21300000, guid: c6996fc746e6ca641b33d6f624b1cf87, type: 3}
   happy: {fileID: 21300000, guid: 2ed68b8e10dd89c40bf61712b8fe86d8, type: 3}
+--- !u!114 &1581929228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581929224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54f49daa731ef043b9cdf2d21df74a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1592114056
 GameObject:
   m_ObjectHideFlags: 0
@@ -5238,6 +5627,7 @@ MonoBehaviour:
   emotions: 
   firstLetter: {fileID: 11400000, guid: b71879f5046268145adfef36b4984441, type: 2}
   messageText: Bob the planet
+  narratorSubText: Press SPACE to continue
 --- !u!1 &1612039178
 GameObject:
   m_ObjectHideFlags: 0
@@ -5318,7 +5708,7 @@ RectTransform:
   - {fileID: 1962627261}
   - {fileID: 1864149677}
   m_Father: {fileID: 695460453}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5376,6 +5766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogText: {fileID: 142491037}
   morseText: {fileID: 1864149678}
+  subText: {fileID: 1962627262}
 --- !u!1 &1700518848
 GameObject:
   m_ObjectHideFlags: 0
@@ -5539,6 +5930,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogText: {fileID: 0}
   morseText: {fileID: 0}
+  subText: {fileID: 0}
 --- !u!1 &1786602501
 GameObject:
   m_ObjectHideFlags: 0
@@ -5789,6 +6181,7 @@ MonoBehaviour:
   emotions: 
   firstLetter: {fileID: 11400000, guid: b71879f5046268145adfef36b4984441, type: 2}
   messageText: 
+  narratorSubText: 
 --- !u!1 &1833905938
 GameObject:
   m_ObjectHideFlags: 0
@@ -6082,7 +6475,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}
@@ -6149,6 +6542,7 @@ MonoBehaviour:
   emotions: 0100000005000000
   firstLetter: {fileID: 11400000, guid: b562b479f9924b34b9c7f05141ec0b13, type: 2}
   messageText: A human boy! I wish he could hear me
+  narratorSubText: 
 --- !u!1 &1962627260
 GameObject:
   m_ObjectHideFlags: 0
@@ -6286,7 +6680,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}
@@ -6446,3 +6840,4 @@ MonoBehaviour:
   emotions: 
   firstLetter: {fileID: 11400000, guid: b71879f5046268145adfef36b4984441, type: 2}
   messageText: The End
+  narratorSubText: 

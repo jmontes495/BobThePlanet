@@ -13,7 +13,6 @@ public class BobController : MonoBehaviour
         StoryNode.BobHype += SetHype;
         StoryNode.BobSad += SetSad;
         StoryNode.BobShy += SetShy;
-        spriteRenderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.On;
     }
 
     private void SetHype()

@@ -22,6 +22,8 @@ public class StoryManager : MonoBehaviour
     [SerializeField] private DialogBubble narratorScreen;
     [SerializeField] private CodeInterpreter optionsScreen;
     [SerializeField] private SingleTextNode auxiliarNode;
+    [SerializeField] private GameObject starIndicator;
+    [SerializeField] private GameObject lanternIndicator;
 
     private StoryNode[] storyNodes;
     private Character currentCharacter;
@@ -51,6 +53,7 @@ public class StoryManager : MonoBehaviour
     {
         HideAll();
         currentNode.CallForEmotions();
+        ToggleLanterns();
         if (currentNode.HasOptions())
             ShowOptions();
         else
@@ -93,7 +96,7 @@ public class StoryManager : MonoBehaviour
     {
         narratorScreen.gameObject.SetActive(true);
         SingleTextNode textNode = (SingleTextNode)currentNode;
-        narratorScreen.SetText("", textNode.MessageText);
+        narratorScreen.SetText("", textNode.MessageText, textNode.NarratorSubText);
     }
 
     private void ShowOptions()
@@ -106,7 +109,7 @@ public class StoryManager : MonoBehaviour
 
     public void PlayerSelectedLetter(List<Symbol> symbols)
     {
-        if (inDelay)
+        if (inDelay || nodeIndex >= storyNodes.Length)
             return;
 
         if (currentNode.HasOptions())
@@ -126,6 +129,8 @@ public class StoryManager : MonoBehaviour
             if (textNode.FirstLetter.Compare(symbols))
             {
                 nodeIndex++;
+                if (nodeIndex >= storyNodes.Length)
+                    return;
                 currentNode = storyNodes[nodeIndex];
                 currentCharacter = currentNode.Character;
                 ShowCurrentMessage();
@@ -145,5 +150,19 @@ public class StoryManager : MonoBehaviour
         currentCharacter = currentNode.Character;
         ShowCurrentMessage();
         inDelay = false;
+    }
+
+    private void ToggleLanterns()
+    {
+        if (currentCharacter == Character.Bob_The_Planet && !starIndicator.activeInHierarchy)
+        {
+            starIndicator.SetActive(true);
+            lanternIndicator.SetActive(false);
+        }
+        else if (currentCharacter == Character.The_Boy && !lanternIndicator.activeInHierarchy)
+        {
+            starIndicator.SetActive(false);
+            lanternIndicator.SetActive(true);
+        }
     }
 }
